@@ -48,5 +48,21 @@ git pull从远端提取数据并合并到当前分支
 git branch --set-upstream-to=远程主机名/远程分支名 本地分支名
 git checkout -b 本地分支名 远程主机名/远程分支名
 git push -u 远程主机名 本地分支名
-sss
+
+
+
+git push 远程主机名 本地分支名：远程分支名      
+可以省略远程分支名，表示将本地分支推送到远程建立了联系的分支上
+如：git push origin master
+命令表示将本地的master分支推送到origin的master分支
+如果主机上master分支不存在，那么就会被新建
+如果省略本地分支名，则表示删除远程分支
+
+
+git push origin表示将当前分支推送到远程上有联系的分支上
+如果当前分支只有一个追踪分支那么主机名都可以省略
+
+如果当前分支与多个主机存在联系，那么可以用
+git push -u origin master
+
 */
