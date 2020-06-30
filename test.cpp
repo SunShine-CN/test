@@ -8,7 +8,6 @@ int main(void)
     int a;
     cout << "hello world" << endl;
     printf("sunjun is good!\n");
-    printf("sunjun is good!\n");
     scanf("%d",&a);
     printf("u");
     return 0;
