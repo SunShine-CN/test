@@ -1,0 +1,9 @@
+{
+    "editor.quickSuggestions": null,
+    "workbench.settings.useSplitJSON": true,
+    "editor.tabSize": 3,
+    "terminal.integrated.scrollback": 200,
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
